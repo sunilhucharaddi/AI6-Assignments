@@ -11,8 +11,10 @@ def sigmoid(x):
   return (1 / (1 + numpy.exp(-x)))
 
 def tanh(x):
+  return((numpy.exp(x)-numpy.exp(-x))/(numpy.exp(x)+numpy.exp(-x)))
   # enter code below
   
 def relu(x):
+  return max(0,x)
   # entr code below
   
